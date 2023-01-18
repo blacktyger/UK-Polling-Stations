@@ -20,18 +20,11 @@ class Command(BaseXpressDemocracyClubCsvImporter):
             "100071230930",  # I.S.I LTD, LEA COTTAGE NUNEATON ROAD, ANSLEY
             "200001812992",  # LEA LODGE, ANSLEY, NUNEATON
             "10001177408",  # CHURCH TREE BARN, KINWALSEY LANE, MERIDEN, COVENTRY
-            # "100071230625",  # GRIFFIN INN, COLESHILL ROAD, SHUSTOKE, COLESHILL, BIRMINGHAM
         ]:
             return None
 
         if record.addressline6 in [
-            #     "B46 2NX",
-            #     "CV9 1AX",
-            #     "CV9 2HS",
-            #     "B46 1AA",
             "B46 1BB",  # split in council data
-            #     "B46 2HS",
-            #     "CV10 0SL",
         ]:
             return None
 
